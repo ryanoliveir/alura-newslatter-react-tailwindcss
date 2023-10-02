@@ -3,3 +3,9 @@
 @tailwind utilities;
 
 
+@layer base {
+    body {
+        @apply bg-blue-light flex justify-center items-center h-screen  px-6 drop-shadow-2xl;
+    }
+}
+

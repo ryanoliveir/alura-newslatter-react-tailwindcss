@@ -2,21 +2,20 @@
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extends: {
+    extend: {
+
       colors: {
         blue: {
-          light: '#C5dFFF',
-          dark: '#061E3C',
-          hover: '#1057B0'
-        }
+          light: "#C5dFFF",
+          dark: "#061E3C",
+          hover: "#1057B0",
+        },
+        white: '#ffffff'
       },
-      fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-      }
-
-    }
+    },
+    fontFamily: {
+      inter: ["Inter", "sans-serif"],
+    },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
-}
+  // plugins: [require("@tailwindcss/forms")],
+};
