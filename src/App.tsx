@@ -1,16 +1,16 @@
 function App() {
   return (
-    <main className="font-inter">
-      <section className="bg-blue-dark hidden">
+    <main className="flex px-6 drop-shadow font-inter ">
+      <section className="bg-blue-dark hidden lg:block w-1/2 rounded-l-lg">
         <img
-          className=""
+          className="p-6 m-auto"
           src="icone-mergulhador.svg"
           alt="icone de mergulhador"
         />
       </section>
 
-      <section className="flex flex-col gap-6 bg-white p-10 rounded-lg">
-        <div className="">
+      <section className="flex flex-col gap-6 bg-white p-10 rounded-lg lg:w-1/2 justify-center lg:rounded-l-none">
+        <div className="hidden">
           <svg
             className=""
             width="35"
